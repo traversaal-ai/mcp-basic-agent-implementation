@@ -6,8 +6,8 @@ This project demonstrates an MCP server that integrates with multiple external t
 ## Overview
 
 This project includes the following features:
-- MCP server with custom tools for fetching weather data, summarizing YouTube videos, generating SQL queries, and more.
-- Integration with OpenAI and Azure OpenAI for generating responses and SQL queries.
+- MCP server with custom tools for fetching weather data, summarizing YouTube videos, and more.
+- Integration with OpenAI and Azure OpenAI for generating responses and YouTube summaries.
 - Real-time interaction through the MCP client.
 
 ## Project Structure
@@ -36,7 +36,6 @@ The client connects to the server, initializes a session, and can call the serve
 
 ### Key Features:
 - **User input handling:** The client listens for user input and sends requests to the server to invoke specific tools.
-- **SQL generation:** When the user asks to create a table or perform an SQL-related task, the server utilizes OpenAI to generate SQL queries.
 - **Tool execution:** The client sends requests to the server, which executes the respective tool and returns results like weather data or video summaries.
 
 ## Getting Started

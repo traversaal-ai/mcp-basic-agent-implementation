@@ -99,7 +99,7 @@ To inspect the running server and monitor tool invocations:
 1. Start the server using:
 
 ```bash
-mcp dev mcp_server.py
+mcp dev example_server.py
 ```
 
 2. Open the MCP Inspector at [http://localhost:5173](http://localhost:5173) to monitor incoming requests.

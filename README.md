@@ -1,7 +1,7 @@
 
 # MCP Server Example  🚀
 
-This project demonstrates an MCP server that integrates with multiple external tools, including weather fetching, YouTube summarization, and database interaction using SQL. It communicates with a client via the Model Context Protocol (MCP), enabling seamless interaction with different services.
+This project demonstrates an MCP server that integrates with multiple external tools, including weather fetching, YouTube summarization. It communicates with a client via the Model Context Protocol (MCP), enabling seamless interaction with different services.
 
 ## Overview
 
@@ -29,7 +29,6 @@ The server exposes the following tools:
 2. **`fetch_weather`** – An async tool that retrieves the current weather for a location using latitude and longitude.
 3. **`fetch_fun_fact`** – An async tool that retrieves a random fun fact from an external API.
 4. **`summarize_youtube`** – An async tool that fetches the top 3 YouTube videos based on a query, and then summarizes the content of each video using YouTube transcripts.
-5. **`database_update_tool`** – A tool that processes SQL queries and interacts with an SQLite database. It leverages OpenAI to generate SQL queries based on user input.
 
 ## Client Implementation
 
